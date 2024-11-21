@@ -1,0 +1,130 @@
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  background-color: #010101;
+}
+
+:root {
+  --black: #010101;
+  --white: #f8f8f8;
+  --text-color: #000;
+}
+
+/* Navigation Styles */
+.nav_component {
+  display: flex;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 5%;
+  align-items: flex-end;
+}
+
+.nav_title {
+  color: var(--white);
+  font-family: Inter;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  margin: 0;
+}
+
+.global_padding {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+/* Section One Styles */
+.section_one {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  background-color: var(--white);
+}
+
+.content_container {
+  max-width: 30rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section_title {
+  color: var(--black);
+  font-family: Inter;
+  font-size: 2.4375rem;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+
+.section_text {
+  color: var(--black);
+  font-family: Inter;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.section_form {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.section_input {
+  display: flex;
+  padding: 1.25rem;
+  align-items: center;
+  gap: 0.625rem;
+  align-self: stretch;
+  border-radius: 0.25rem;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.section_button {
+  display: flex;
+  padding: 0.9375rem 1.25rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  align-self: stretch;
+  border-radius: 0.25rem;
+  background: var(--black);
+  color: var(--white);
+  font-family: Inter;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+/* Section Two Styles */
+.section_two {
+  background-color: var(--black);
+}
+
+.section_image {
+  max-width: 100%;
+  width: 100%;
+  max-height: 40rem;
+  object-fit: cover;
+  height: auto;
+}
+
+/* Footer Styles */
+.footer_component {
+  width: 100%;
+  padding: 1rem;
+  background-color: var(--black);
+  text-align: center;
+}
+
+.footer_text {
+  font-family: "Inter", sans-serif;
+  font-size: 0.875rem;
+  color: var(--white);
+}
